@@ -21,9 +21,8 @@ app.use('/api/views', require("./src/routes/page.js"));
 app.use("/za3amah", (req,res)=> {
     res.render("landpage")
 })
-app.use("/", (req,res)=> {
-    res.redirect("/za3amah")
-})
+
+app.use('/', (req,res)=> { res.redirect('/za3amah')});
 
 app.listen(port, () => {
     console.log("it is started localhost:3000")

@@ -57,7 +57,7 @@ span {
 .information {
 backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px); /* Safari */
-  border-radius: 8;
+  border-radius: 8px;
   width: 100%;
   padding: 40px;
     filter: drop-shadow(#ffffff 1px 0 10px) !important;
